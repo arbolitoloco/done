@@ -82,6 +82,10 @@ ul, ol {
   margin-left: $spacing-unit;
 }
 
+ul {
+  list-style-type: none;
+}
+
 li {
   > ul,
   > ol {
