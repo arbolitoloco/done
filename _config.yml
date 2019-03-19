@@ -6,6 +6,8 @@ description: > # this means to ignore newlines until "show_exerpts:"
   A little journal documenting cool things I've learned, made or tried.
 
 show_excerpts: false # set to true to show excerpts on the homepage
+paginate: 50
+#paginate_path: "/page/:num/"
 
 # Minima date format
 # refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
@@ -49,3 +51,4 @@ theme: minima
 plugins:
  - jekyll-feed
  - jekyll-seo-tag
+
