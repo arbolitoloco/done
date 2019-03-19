@@ -6,7 +6,7 @@ description: > # this means to ignore newlines until "show_exerpts:"
   A little journal documenting cool things I've learned, made or tried.
 
 show_excerpts: false # set to true to show excerpts on the homepage
-paginate: 1
+paginate: 5
 #paginate_path: "/page/:num/"
 
 # Minima date format
