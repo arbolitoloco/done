@@ -5,7 +5,7 @@ website: http://laura.rochaprado.com
 description: > # this means to ignore newlines until "show_exerpts:"
   A little journal documenting cool things I've learned, made or tried.
 
-show_excerpts: false # set to true to show excerpts on the homepage
+show_excerpts: true # set to true to show excerpts on the homepage
 
 # Minima date format
 # refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
@@ -49,12 +49,3 @@ theme: minima
 plugins:
  - jekyll-feed
  - jekyll-seo-tag
- - jekyll-paginate
-
-
-# Adding pagination
-str_next_page: "Next"
-str_previous_page: "Previous"
-paginate: 3
-pagination_nr: 2
-paginate_path: /page:num/

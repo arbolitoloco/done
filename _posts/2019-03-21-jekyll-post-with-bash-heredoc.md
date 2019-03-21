@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Learned about Here Documents and created script to automate these posts templates"
+title: "Learned about Here Documents and created script to automate these posts templates
 categories: bash
 author: "Laura Rocha Prado"
 ---
