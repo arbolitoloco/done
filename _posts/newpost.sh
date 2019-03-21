@@ -5,9 +5,9 @@ DATE=$1 # YYYY-MM-DD
 TITLE=$2 # Title or "Long title"
 CATS=$3 # category OR "category 1, category 2"
 TEXT=$4 # "Full text of post"
-FILENAME=$1-$5 # short-title-hifenated
+SHORT=$1-$5 # short-title-hifenated
 
-NewFile=$FILENAME.md
+NewFile=$SHORT.md # output is DATE-FILENAME.md
 (
 # define the template.
 cat  << EOF
