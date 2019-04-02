@@ -17,4 +17,5 @@ In summary, the steps involve:
 Because of the particularity of Minima, I had to further:
 1. Rename `index.md` to `index.html`.
 2. Correct relative paths for links called in `paginator.html`.
+3. Adjust `home.html` to include the correct lops for the paginated posts (as one would do with `index.html` normally).
 3. Fix styles in `_sass/minima/_layout.scss`.
