@@ -12,7 +12,7 @@ layout: default
   {%- if site.posts.size > 0 -%}
     <h1>{{ page.list_title | default: "Latest posts" }}</h1>
     <ul class="post-list">
-      {%- for post in site.posts limit:5 -%}
+      {%- for post in paginator.posts -%}
       <li>
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         <span class="post-meta">{{ post.date | date: date_format }}</span>
@@ -29,6 +29,11 @@ layout: default
     </ul>
 
     <p class="feed-subscribe"><svg class="svg-icon orange"><use xlink:href="{{ '/assets/minima-social-icons.svg#rss' | relative_url }}"></use></svg><a href="{{ "/feed.xml" | relative_url }}">Subscribe</a></p>
+
+    {%- include paginator.html -%}
+
   {%- endif -%}
+
+
 
 </div>
