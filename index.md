@@ -7,6 +7,7 @@
 #
 layout: home
 ---
+Testing pagination: 
 
 {% for post in paginator.posts %}
   <li>
