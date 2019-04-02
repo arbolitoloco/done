@@ -3,7 +3,7 @@
     <nav aria-label="Pagination">
         <ul class="pagination text-center">
         {% if paginator.previous_page %}
-        <li class="pagination-previous"><a href="{{ paginator.previous_page_path }}">Previous</a></li>
+        <li class="pagination-previous"><a href="/done{{ paginator.previous_page_path }}">Previous</a></li>
         {% else %}
         <li class="pagination-previous disabled">Previous</li>
         {% endif %}
